@@ -18,7 +18,7 @@ public class Magnetismo  extends AppCompatActivity implements SensorEventListene
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.Magnetismo);
+        setContentView(R.layout.activity_magnetismo);
         textView=(TextView) findViewById(R.id.magneticfield);
 
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
